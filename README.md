@@ -56,6 +56,9 @@ The model consists of three main parts. The first part is an LSTM network that m
 
 The model is able to learn with just training data, but overfitting is a slight issue. Testing loss cannot get consistently below 0.7, for both SMILES only and extra input models, meaning that the model does not get too much information from the extra inputs that it couldn't extract from the SMILES notation text. 
 
+<img src="https://github.com/DtPeach3707/SolubilityPredictor/raw/main/Loss-Graphs/TestLoss-SMILESOnly.png" width="300">
+<img src="https://github.com/DtPeach3707/SolubilityPredictor/raw/main/Loss-Graphs/TestLoss-ExtraInputs.png" width="300>
+
 [Back To Top](#solubilitypredictor)
 
 # How to Run the Code
